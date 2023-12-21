@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NARAKA: BLADEPOINT World Championship (J Cup 2023)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="Layer1.webp">
+   <style> 
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 14s ease infinite;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  80% {margin-left: -1456px;}
+}
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+
+
+    
+    .header {
+  display: grid;
+grid-template-columns: auto auto auto auto auto auto auto 
+ auto;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  /* background-color: #000; */
+}
+
+    .login{
+      background-color: #000;  
+      border-radius: 5px;
+    }
+    .login a{
+      color: #830003;
+      border-radius: 5px;
+      padding: 10px ;
+      margin: 5px ;
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .overlay p {
+    color: white;
+    font-size: 24px;
+  }
+.logo{
+  padding-right: 200px;
+  opacity: calc(0.8);
+}
+
+.bieutuong{
+  color: #fff;
+  background-color: #0000;
+  margin: 10px;
+  }
+.fontchu h1{
+    font-family: 'Noto Serif', serif;
+    color: #dbab58;
+    font-size: 70px;
+    background-color: #221b1a; 
+    text-align: center;
+    display: grid;
+
+  }
+  .product-chude{
+    background-color: #221b1a; 
+    display: flex;
+  }
+  .product-text{
+    color: #fff;
+    font-size:15px;
+    padding:100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .product-img img{
+    width: 120%;
+    padding: 100px 0px;
+  }
+  .product-chude{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+width: 100px;
+font-size: 15px;
+}
+/* .active, */
+.accordion:hover {
+background-color: #ccc;}
+.panel {
+padding: 0 18px;
+background-color: rgb(194, 189, 189);
+max-height: 0;
+overflow: hidden;
+}
+.box {
+display: grid;
+justify-content: space-around;
+text-align: center;
+
+}
+
+
+
+
+   </style>
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="logo">
+          <img src="Naraka.jpg" alt="" width="150px" height="70px" />
+        </div>
+        <div class="box">
+          <button class="accordion">GAME</button>
+          <div class="panel">
+            <p>Dowload</p>
+            <p>News</p>
+            <p>Media</p>
+            <p>Help Center</p>
+            <p>About</p>
+          </div>
+          <button class="accordion">COMMUNITY</button>
+          <div class="panel">
+            <p>Evenr</p>
+            <p>CREATOR PROGRAM</p>
+          </div>
+          <button class="accordion">ESPORT</button>
+          <div class="panel">
+            <p>J CUP</p>
+          </div>
+          <button class="accordion">GUIDE</button>
+          <div class="panel">
+            <p>QUICK START</p>
+              <p>HERO</p>
+              <p>WEAPON</p>
+          </div>
+          <button class="accordion">COMMUNITY</button>
+          <div class="panel">
+            <p>Evenr</p>
+            <p>CREATOR PROGRAM</p>
+          </div>
+          <button class="accordion">EXPLORE</button>
+          <div class="panel">
+            <p>NARAKA+</p>
+            <p>SUNWING RELICS</p>
+            <p>Media</p>
+            <p>OFFICIAL MERCH</p>
+          </div>
+          <button class="accordion">LANGUAGE</button>
+          <div class="panel">
+            <p>English</p>
+            <p>繁體中文</p>
+            <p>नकारा</p>    
+          </div>
+        </div>
+          <div class="bieutuong">
+            <a href="#" class="button-instagram">
+              <span class="button-icon">
+                <i class="fa-brands fa-instagram fa-xl" style="color: #E4405F;"></i>
+              </span>
+            </a>
+            <a href="#" class="button-twitter">
+              <i class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"></i>
+              </span>
+            </a>
+            <a href="#" class="button-youtube">
+              <span class="button-icon">
+                <i class="fa-brands fa-youtube fa-xl" style="color: #CD201F;"></i>
+              </span>
+            </a>
+            <a href="#" class="button-facebook">
+              <span class="button-icon">
+                <i class="fa-brands fa-facebook fa-xl" style="color: #1877F2;"></i>
+              </span>
+            </a>
+            <a href="#" class="button-discord">
+              <span class="button-icon">
+                <i class="fa-brands fa-discord fa-xl" style="color: #f7f7f8;"></i>
+              </span>
+            </a>
+            
+          </div>
+        </div>
+        
+        <div class="login">
+          <button>
+               <a href="#">Login</a>
+          </button>
+   
+        
+        </div>
+      </div>
+      <!--End header-->
+      <!--Banner-->
+    <div class="banner">
+          <video Muted Autoplay loop width="100%" height="100%">
+            <source src="9convert.com - New Hero Hadi Ismail Gameplay Showcase NARAKA BLADEPOINT_1080pFHR (online-video-cutter.com).mp4" type="video/mp4">
+            <div class="overlay">
+              <p>Game NARAKA</p>
+            </div>
+        </video>
+      </div> 
+      <!--End banner-->
+      <!--Chủ Đề-->
+      <div class="fontchu">
+      <h1><u>THE ONE AND ONLY
+        MELEE-FOCUSED BATTLE ROYALE
+        </u></h1>
+        </div>
+      <div class="product-chude">
+        <div class="product-text">
+         <h3>Eons ago on the Morus Isle, two ancient gods collided - creating the Mask of Immortality: an artifact of legendary power. Now, all heroes across the world assemble on this very same land, each wishing to claim the Mask as their own.</h3><br><br>
+         <h3>NARAKA: BLADEPOINT offers you a Battle Royale experience unlike any other: you'll enjoy dynamic, fast-paced and ever shifting melee-focused combat, battle your enemies with punishing combos, parries, and grit or outsmart them using lethal counters in an intense mind game. Wall run, swoop down, and zip across mountains and buildings to hunt down unsuspecting foes using your grappling hook and parkour skills.</h3><br><br>
+         <h3>More than 10-million players have joined the fray, and it's your turn now! Travel with NARAKA: BLADEPOINT to the magnificent but dangerous lands of Morus and Holoroth!</h3><br>
+        </div>
+        <div id="slideshow">
+          <div class="slide-wrapper">
+            <div class="slide"><img src="photo-1.jpg"></div>
+            <div class="slide"><img src="pho-2.jpg"></div>
+               <div class="slide"><img src="photo-3.jpg"></div>
+          </div>
+        </div>
+      </div>
+      <!--End chủ đề-->
+      <!--Show Clip Youtube-->
+      <div class="showclip">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/gZyGN1XQmPM?si=eauIcamwMWlcnkO3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="750" height="315" src="https://www.youtube.com/embed/wSB9KbPwPaE?si=dr58mNkpSSrvcU68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Nyxbf3BRhGQ?si=EdOSXUaEVs5TPach" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <!--END Show Clip Youtube-->
+
+      <script>
+        var acc = 
+document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function () {
+var panel = this.nextElementSibling;
+if (panel.style.maxHeight) {
+panel.style.maxHeight = null;
+} else {
+panel.style.maxHeight = panel.scrollHeight + 
+"px";
+}
+});
+}
+      </script>
+</body>
+</html>
